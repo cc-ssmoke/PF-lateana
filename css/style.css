@@ -31,11 +31,6 @@ nav ul{
     font-weight: bold;
 }
 
-.fotitos-productos{
-margin-left: 50px;
-gap: 20px;
-}
-
 footer{
     display: flex;
     justify-content: center;
