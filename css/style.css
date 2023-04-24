@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(21, 152, 192);
+    height: 60px;
+}
+
+.foto-logo{
+    display: flex;
+    height: 64px;
+}
+nav ul{    
+    display: flex;
+    color: rgb(0, 0, 0);
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.parrafo-bienvenida{
+    margin: 100px 0 0 100px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.fotitos-productos{
+display: block;
+margin-left: 50px;
+gap: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 104, 104);
+    width: 100%;
+    bottom: 0;
+}
+
+.container-footer{
+    gap: 30%;
+}
+
+.logo-wpp{
+    height: 40px;
+}
+
+.logo-twt{
+    height: 35px;
+}
+
+.logo-ig{
+    height: 50px;
+}
