@@ -15,6 +15,7 @@ header{
 }
 nav ul{    
     display: flex;
+    justify-content: flex-end;
     color: rgb(0, 0, 0);
     gap: 20px;
     font-size: 20px;
