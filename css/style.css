@@ -5,6 +5,7 @@
 }
 
 header{
+    display:flex ;
     background-color: rgb(21, 152, 192);
     height: 60px;
 }
@@ -15,7 +16,7 @@ header{
 }
 nav ul{    
     display: flex;
-    justify-content: flex-end;
+    list-style: none;
     color: rgb(0, 0, 0);
     gap: 20px;
     font-size: 20px;
@@ -31,7 +32,6 @@ nav ul{
 }
 
 .fotitos-productos{
-display: block;
 margin-left: 50px;
 gap: 20px;
 }
