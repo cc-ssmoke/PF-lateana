@@ -4,32 +4,40 @@
     box-sizing: border-box;
 }
 
-header{
-    display:flex ;
-    background-color: rgb(21, 152, 192);
-    height: 60px;
+    /* Header */
+
+.navbar-brand img {
+    height: 62px;
 }
 
-.foto-logo{
-    display: flex;
-    height: 64px;
-}
-nav ul{    
-    display: flex;
-    list-style: none;
-    color: rgb(0, 0, 0);
-    gap: 20px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-}
-
+/* Main - Home */
 .parrafo-bienvenida{
-    margin: 100px 0 0 100px;
+    margin: 30px 0 0 100px;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
+
+.carrusel-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 135px 0 135px;
+}
+
+.sobre-cafe {
+    margin: 50px 20px 0 20px;
+}
+
+.h2-sobrecafe {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+    /* Footer */
 
 footer{
     display: flex;
@@ -37,6 +45,7 @@ footer{
     background-color: rgb(104, 104, 104);
     width: 100%;
     bottom: 0;
+    margin-top: 450px;
 }
 
 .container-footer{
@@ -53,4 +62,182 @@ footer{
 
 .logo-ig{
     height: 50px;
+}
+
+/* Productos - Main */
+
+.h1-productos {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+
+}
+
+.parrafo-productos {
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.tarjetas-1-2-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.tarjetas-4-5-6 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Main - Contacto */
+
+.contacto-texto {
+    display:flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px 20px;
+    gap: 5px;
+    
+}
+
+/* Main - Nosotros */
+
+.h3-nosotros {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.lugar-nosotros-1-2-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.lugar-nosotros-4-5-6 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nosotros-p {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 30px;
+}
+
+/* -------------------- MEDIA QUERYS ------------------------- */
+
+@media only screen and (min-width: 992px) {
+    .desktop-menu {
+    display: block;
+    }
+    .mobile-menu {
+    display: none;
+}
+}
+
+  /* Reglas de estilo para dispositivos móviles */
+
+@media only screen and (max-width: 991px) {
+    .desktop-menu {
+    display: none;
+}
+
+
+header img {
+        height: 4rem;
+        margin-left: 0.31rem; 
+    }
+
+.mobile-menu {
+    display: flex;
+    margin-left: 11rem;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav .nav-item {
+    margin-top: 1.25rem;
+    margin-bottom: -5rem;
+}
+.navbar-nav li {
+    padding-top: -3.1rem;
+    padding-bottom: -10rem;
+}
+
+.container-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 3rem;
+}
+
+.contenedor-modelos {
+    display:flex;
+    flex-wrap: wrap;
+    gap:  -15rem;
+}
+
+.modelo-1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.modelo-1 img {
+    margin-left: 8.2rem;
+}
+
+.modelo-2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.modelo-3 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+footer p {
+    display:none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
 }

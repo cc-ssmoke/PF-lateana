@@ -1,107 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- Link Bootstrsp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Link Bootstrsp -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    
     <title>Home</title>
-    
 </head>
 
 <body>
     <header>
 
-        <div class="foto-logo">
-            <img src="https://www.freepnglogos.com/uploads/coffee-logo-png/deja-brew-cafe-logo-dejacafe-20.png" alt="logo de cafe">
-            <h1>Coffe Drop</h1>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.freepnglogos.com/uploads/coffee-logo-png/deja-brew-cafe-logo-dejacafe-20.png"
+                        alt="foto-logo">
+                </a>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/opiniones.html">Opiniones</a>
-                </li>
-            </ul>
+                <div class="nombre-pag">
+                    <h1>Coffee Drop</h1>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item me-1">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="pages/opiniones.html">Opiniones</a>
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+            </div>
         </nav>
-        
+
     </header>
 
     <main>
 
         <section>
-            
+
             <div class="parrafo-bienvenida">
                 <p>Bievenidos a Coffe Drop donde podrás encontrar el mejor café elaborado de Argentina.</p>
             </div>
 
             <!-- Fotos de Productos -->
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-
-                <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="img/bolsa-cafe.jpg" class="d-block w-100" alt="bolsa de cafe">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-
+            <div class="carrusel-index">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
-
-                </div>
-
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/cafe-leche-granos.png" class="d-block w-100" alt="cafe con leche">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ratio-cafe-filtrado.png" class="d-block w-100" alt="cafe filtrado">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/granos-cafe.png" class="d-block w-100" alt="granos de cafe 2">
+                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previsto</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
-
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-
-                </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previsto</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-                </button>
-
             </div>
 
+
+
+        </section>
+
+        <section>
+            <div>
+                <h2 class="h2-sobrecafe">¡10 BENEFICIOS DEL CAFÉ QUE QUIZÁS DESCONOZCAS!</h2>
+            </div>
+
+            <div class="sobre-cafe">
+                <div>
+                    <h3>1. ES RICO EN ANTIOXIDANTES</h3>
+                    <p>Uno de los mayores beneficios del café solo es que se trata de una bebida rica en antioxidantes,
+                        especialmente polifenoles, que en parte son absorbidos por el organismo.
+                        El café es uno de los productos vegetales más ricos en compuestos antioxidantes. Estos
+                        antioxidantes están presentes especialmente en los granos de café verde y aunque una parte se
+                        elimina con el tueste, lo cierto es que el café tostado sigue siendo una buena fuente de ellos.
+                        El café es especialmente rico en polifenoles que actúan contra los radicales libres y algunos
+                        metales pesados que provocan el envejecimiento de los tejidos y ayudan a prevenir enfermedades y
+                        mantener una buena salud en general. </p>
+                </div>
+
+                <div>
+                    <h3>2. ACTIVA LA MENTE</h3>
+                    <p>La cafeína es el componente del café que nos estimula y nos activa. También es el responsable de
+                        mejorar algunas funciones cognitivas, como acelerar los procesos cerebrales y mejorar la
+                        memoria. Uno de los grandes beneficios de tomar café que es que nos ayuda a estar más
+                        despiertos, atentos y concentrados a lo largo del día.</p>
+                </div>
+
+                <div>
+                    <h3>3. CAFÉ CONTRA EL DOLOR DE CABEZA ESPORÁDICO</h3>
+                    <p>La cafeína, por sus propiedades vasodilatadoras, ayuda a combatir cefaleas y aumenta el efecto de
+                        los antianalgésicos. Por eso, entre los beneficios del café con leche también está que puede
+                        ayudar a eliminar algún ligero dolor de cabeza.
+                    </p>
+                    <p>En cambio, el consumo de más de 3 tazas de café al día no se recomienda para quienes padecen
+                        migrañas habitualmente ya que puede ser uno de los desencadenantes, entre muchos otros factores.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>4. ES ADECUADO PARA DEPORTISTAS</h3>
+                    <p>El café es saludable también para aquellas personas que practican deporte o tienen que hacer un
+                        esfuerzo físico importante. La cafeína actúa sobre el sistema nervioso y provoca que se perciba
+                        el cansancio más tarde y, por tanto, aumente el rendimiento. Además, entre los beneficios del
+                        café también está el hecho que ayuda a estar alerta y más concentrados, dos factores que también
+                        son importantes para los deportistas.</p>
+                </div>
+
+                <div>
+                    <h3>5. CONTRIBUYE A LA PÉRDIDA DE PESO</h3>
+                    <p>La cafeína forma parte de muchos compuestos, cremas y productos destinados a perder peso quemando
+                        grasa. Esto se debe a que la cafeína acelera la termogénesis, un proceso metabólico del
+                        organismo que ayuda a quemar mayor cantidad de grasa. Así pues, el café es útil para ayudar a
+                        perder peso, pero siempre como complemento a una dieta equilibrada y rica en productos vegetales
+                        y la práctica de ejercicio físico. Además, en estos casos debemos consumir café solo, sin azúcar
+                        ni leche.</p>
+                    <p>A menudo se ha destacado que uno de los beneficios de dejar el café es evitar la retención de
+                        líquidos, que es otro factor en la pérdida de peso. Lo cierto es que el café, como otras bebidas
+                        energéticas, puede ayudar a que se retengan más líquidos en el organismo pero no es el único.
+                        Hay muchos otros factores que influyen en la retención de líquidos como el consumo de sal, el
+                        sedentarismo, ciertos medicamentos y no beber suficiente agua durante el día.</p>
+                </div>
+
+                <div>
+                    <h3>6. PUEDE PROTEGER FRENTE A CÁNCER, ICTUS Y ENFERMEDADES CORONARIA</h3>
+                    <p>El mayor estudio sobre el consumo de café que se ha realizado últimamente es el llevado a cabo
+                        por el Instituto Nacional de Cáncer de EEUU en 2018. Sus conclusiones sobre los beneficios del
+                        café son sorprendentes: a mayor consumo de café, menor índice de mortalidad por cáncer, ictus y
+                        enfermedades coronarias. Se trata de un ambicioso estudio observacional cuyas conclusiones no
+                        pueden ser tomadas como definitivas pero sí que aporta información relevante e interesante para
+                        posteriores estudios sobre las propiedades del café y sus efectos sobre la salud.</p>
+                </div>
+
+                <div>
+                    <h3>7. COMBATE EL ALZHEIMER Y EL PARKINSON</h3>
+                    <p>Desde hace varios años se estudia la relación entre el consumo de café y enfermedades
+                        neurodegenerativas como el Alzheimer y el Parkinson. La conclusión de todos ellos es que el
+                        consumo regular de café reduce la probabilidad de padecer estas dolencias en el futuro.</p>
+                </div>
+
+                <div>
+                    <h3>8. REDUCE EL RIESGO DE PADECER DIABETES TIPO 2</h3>
+                    <p>Otro de los beneficios de tomar café para la salud es que reduce las probabilidades de padecer
+                        diabetes de tipo 2. Varios estudios vinculan un consumo de tres o cuatro tazas de café al día,
+                        también descafeinado, con un 25% menos de probabilidades de padecer este tipo de diabetes. Los
+                        mecanismos por los que el café influye en el desarrollo de esta enfermedad no están claros, pero
+                        podría ser por su efecto antioxidante, antiinflamatorio y termogénico.</p>
+                </div>
+
+                <div>
+                    <h3>9. ES BUENO PARA EL CORAZÓN</h3>
+                    <p>Ya hemos visto que entre las ventajas del café está que protege frente a enfermedades coronarias.
+                        El café se ha asociado tradicionalmente a un mayor riesgo de enfermedades del corazón debido al
+                        efecto estimulante de la cafeína. Lo cierto es que no solo no es peligroso, sino que beber café
+                        es bueno para el corazón e incluso lo pueden tomar algunas personas hipertensas, ya que su
+                        efecto sobre la hipertensión no es tan importante como se suponía en el pasado.</p>
+                    <p>Un estudio publicado en la revista American Heart Association indica que el consumo de hasta
+                        cuatro tazas de café al día tiene un efecto cardioprotector y esto es gracias a los
+                        antioxidantes. En este sentido, el café descafeinado tiene el mismo efecto para el corazón sin
+                        las molestias que puede ocasionar la cafeína en algunas personas.</p>
+                </div>
+
+                <div>
+                    <h3>10. EL PLACER DE TOMAR UN BUEN CAFÉ</h3>
+                    <p>Sin duda el café tiene propiedades y beneficios directos para la salud. Pero por encima de todo,
+                        tomar un buen café es un placer. Es el gesto de cada mañana al despertar, para empezar con buen
+                        pie el día. El café nos une, favorece las relaciones sociales cuando quedamos para tomar un café
+                        y charlar. No hay duda que el café nos pone de buen humor, y este también es un gran beneficio
+                        para nuestra salud.</p>
+                </div>
+            </div>
         </section>
 
     </main>
@@ -110,17 +226,23 @@
 
         <div class="container-footer">
 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/584px-Twitter-logo.svg.png" alt="twitter" class="logo-twt">
+            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                alt="twitter" class="logo-twt">
 
-            <img src="https://www.pngall.com/wp-content/uploads/5/Instagram-Logo-PNG-Free-Download.png" alt="instagram" class="logo-ig">
+            <img src="https://www.pngall.com/wp-content/uploads/5/Instagram-Logo-PNG-Free-Download.png" alt="instagram"
+                class="logo-ig">
 
-            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="whatsapp" class="logo-wpp">
+            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png"
+                alt="whatsapp" class="logo-wpp">
 
         </div>
 
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
