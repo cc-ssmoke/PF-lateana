@@ -7,7 +7,14 @@
 
 /* Header */
 .navbar-brand img {
-  height: 62px;
+    height: 64px;
+}
+
+
+/* BODY - GENERAL */
+body {
+    background: rgb(133,148,230);
+background: linear-gradient(90deg, rgba(133,148,230,1) 15%, rgba(104,184,204,1) 43%, rgba(240,248,234,1) 65%, rgba(180,143,106,1) 88%);
 }
 
 /* Main - Home */
