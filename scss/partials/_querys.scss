@@ -1,0 +1,60 @@
+@media screen and (min-width: 320px) {
+    .parrafo-bienvenida {
+        margin: 20px 0 0 20px;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+}
+
+/* Reglas de estilo para dispositivos móviles */
+
+@media screen and (max-width: 991px) {
+    .h2-sobrecafe {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        font-style: oblique;
+    }
+
+    .h1-productos {
+        display: flex;
+        justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        font-style: oblique;
+    
+    }
+
+    .parrafo-productos {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+
+    .tarjetas-1-2-3 {
+        display: grid;
+        grid-gap: 20px;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .tarjetas-4-5-6 {
+        display: grid;
+        justify-content: center;
+        grid-gap: 20px;
+        margin: auto;
+    }
+
+    .opiniones {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+}

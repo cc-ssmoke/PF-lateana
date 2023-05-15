@@ -1,0 +1,111 @@
+// Main --> Home
+.parrafo-bienvenida{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 100px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+.carrusel-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 135px 0 135px;
+}
+
+.h2-sobrecafe {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.sobre-cafe {
+    margin: 50px 20px 0 20px;
+}
+
+// Main --> Productos
+.h1-productos {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+
+    .parrafo-productos {
+        display:flex;
+        justify-content: center;
+        margin: 30px 0 0 100px;
+        font-size: 40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.tarjetas-1-2-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.tarjetas-4-5-6 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Main - Contacto */
+
+.contacto-texto {
+    display:flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px 20px;
+    gap: 5px;
+    
+}
+
+/* Main - Nosotros */
+
+.h3-nosotros {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+
+    .lugar-nosotros-1-2-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+    }
+    
+    .lugar-nosotros-4-5-6 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+.nosotros-p {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 30px;
+}

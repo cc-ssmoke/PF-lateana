@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1d6bde;
+    width: 100%;
+    bottom: 0;
+    margin-top: 450px;
+
+    .container-footer {
+        gap: 30%;
+
+        .logo-twt {
+            height: 50px;
+            color: black;
+        }
+        
+        .logo-wpp {
+            height: 50px;
+            color: black;
+        }
+
+        .logo-ig {
+        height: 50px;
+        color: black;
+        }
+
+    }
+
+    .derecho-reser {
+        display: flex;
+        font-weight: bold;
+    }
+
+}
+
+
+
