@@ -10,17 +10,17 @@ footer {
         gap: 30%;
 
         .logo-twt {
-            height: 50px;
+            height: 55px;
             color: black;
         }
         
         .logo-wpp {
-            height: 50px;
+            height: 55px;
             color: black;
         }
 
         .logo-ig {
-        height: 50px;
+        height: 55px;
         color: black;
         }
 
@@ -28,7 +28,9 @@ footer {
 
     .derecho-reser {
         display: flex;
+        justify-content: center;
         font-weight: bold;
+        padding: 15px;
     }
 
 }
